@@ -9,7 +9,6 @@ import base64
 app = Flask(__name__)
 CORS(app)
 
-OPENAI_API_KEY = 'YOUR API KEY'
 openai.api_key = OPENAI_API_KEY
 
 AUDIO_DIR = Path(__file__).parent / "audio"
